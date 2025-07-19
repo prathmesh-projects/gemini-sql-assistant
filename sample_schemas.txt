@@ -1,0 +1,164 @@
+ 1. University Management System
+
+
+
+{
+  "Students": {
+    "StudentID": "INT",
+    "Name": "VARCHAR",
+    "Major": "VARCHAR",
+    "EnrollmentYear": "INT"
+  },
+  "Courses": {
+    "CourseID": "INT",
+    "CourseName": "VARCHAR",
+    "Credits": "INT",
+    "Department": "VARCHAR"
+  },
+  "Enrollments": {
+    "EnrollmentID": "INT",
+    "StudentID": "INT",
+    "CourseID": "INT",
+    "Grade": "VARCHAR"
+  },
+  "Professors": {
+    "ProfessorID": "INT",
+    "Name": "VARCHAR",
+    "Department": "VARCHAR",
+    "Tenured": "BOOLEAN"
+  }
+}
+
+
+ 2. Hospital Patient Records System
+
+
+{
+  "Patients": {
+    "PatientID": "INT",
+    "Name": "VARCHAR",
+    "DOB": "DATE",
+    "Gender": "VARCHAR",
+    "Phone": "VARCHAR"
+  },
+  "Appointments": {
+    "AppointmentID": "INT",
+    "PatientID": "INT",
+    "DoctorID": "INT",
+    "AppointmentDate": "DATE",
+    "Status": "VARCHAR"
+  },
+  "Doctors": {
+    "DoctorID": "INT",
+    "Name": "VARCHAR",
+    "Specialization": "VARCHAR",
+    "Available": "BOOLEAN"
+  },
+  "Prescriptions": {
+    "PrescriptionID": "INT",
+    "AppointmentID": "INT",
+    "Medication": "VARCHAR",
+    "Dosage": "VARCHAR"
+  }
+}
+
+
+
+ 3. Airline Booking & Flights Schema
+
+
+{
+  "Flights": {
+    "FlightID": "INT",
+    "Origin": "VARCHAR",
+    "Destination": "VARCHAR",
+    "DepartureTime": "DATETIME",
+    "ArrivalTime": "DATETIME"
+  },
+  "Passengers": {
+    "PassengerID": "INT",
+    "Name": "VARCHAR",
+    "Email": "VARCHAR",
+    "Phone": "VARCHAR"
+  },
+  "Bookings": {
+    "BookingID": "INT",
+    "PassengerID": "INT",
+    "FlightID": "INT",
+    "SeatClass": "VARCHAR",
+    "Status": "VARCHAR"
+  },
+  "CrewMembers": {
+    "CrewID": "INT",
+    "FlightID": "INT",
+    "Name": "VARCHAR",
+    "Role": "VARCHAR"
+  }
+}
+
+
+ 4. Library & Lending Management System
+
+
+{
+  "Books": {
+    "BookID": "INT",
+    "Title": "VARCHAR",
+    "Author": "VARCHAR",
+    "Genre": "VARCHAR",
+    "AvailableCopies": "INT"
+  },
+  "Members": {
+    "MemberID": "INT",
+    "Name": "VARCHAR",
+    "Email": "VARCHAR",
+    "JoinDate": "DATE"
+  },
+  "Loans": {
+    "LoanID": "INT",
+    "BookID": "INT",
+    "MemberID": "INT",
+    "LoanDate": "DATE",
+    "ReturnDate": "DATE"
+  },
+  "Fines": {
+    "FineID": "INT",
+    "LoanID": "INT",
+    "Amount": "DECIMAL",
+    "Paid": "BOOLEAN"
+  }
+}
+
+
+
+ 5. Sports Tournament Organizer
+
+
+{
+  "Teams": {
+    "TeamID": "INT",
+    "Name": "VARCHAR",
+    "Coach": "VARCHAR",
+    "Country": "VARCHAR"
+  },
+  "Players": {
+    "PlayerID": "INT",
+    "Name": "VARCHAR",
+    "TeamID": "INT",
+    "Position": "VARCHAR",
+    "Age": "INT"
+  },
+  "Matches": {
+    "MatchID": "INT",
+    "Team1ID": "INT",
+    "Team2ID": "INT",
+    "MatchDate": "DATE",
+    "Location": "VARCHAR"
+  },
+  "Scores": {
+    "ScoreID": "INT",
+    "MatchID": "INT",
+    "TeamID": "INT",
+    "Points": "INT"
+  }
+}

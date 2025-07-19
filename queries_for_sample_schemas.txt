@@ -1,0 +1,64 @@
+1. University Management System
+
+1. List all students majoring in Computer Science.
+2. Get the names and grades of students enrolled in "Data Structures".
+3. How many students are enrolled in each course?
+4. Show all courses with more than 3 credits.
+5. List professors from the Computer Science department who are tenured.
+6. Get the average grade per course.
+7. Which students are taking courses taught by professors from the Math department?
+8. Count the number of students enrolled each year.
+9. List all students along with the number of courses they are enrolled in.
+10. Which departments offer the most credits across all courses?
+
+2. Hospital Patient Records System
+
+1. Show all upcoming appointments for Dr. Smith.
+2. List patients who had more than 3 appointments.
+3. How many appointments did each doctor have this month?
+4. Get details of prescriptions for patients aged over 50.
+5. Which doctors are currently available?
+6. Show patients who have never had an appointment.
+7. List all medications prescribed in the past 30 days.
+8. Count the number of appointments per status (Scheduled, Completed, Cancelled).
+9. Find patients with more than one unresolved issue.
+10. Show average prescriptions per appointment.
+
+3. Airline Booking & Flights Schema
+
+1. List all flights departing from Delhi this week.
+2. Show passengers booked on Flight ID 101.
+3. How many bookings are confirmed per flight?
+4. Which passengers have booked more than 3 flights?
+5. Get a list of flights with no bookings.
+6. List crew members assigned to each flight.
+7. Count number of passengers by seat class (Economy, Business).
+8. Show total number of flights per destination.
+9. List flights with overlapping times.
+10. Find flights with more than 2 crew members.
+
+4. Library & Lending Management System
+
+1. Show books currently loaned out.
+2. List members with overdue books (return date < today).
+3. Which books have the highest number of loans?
+4. Find total fines issued and paid status.
+5. Get all loans made in the past 30 days.
+6. List members who have never borrowed a book.
+7. Show top 3 most borrowed genres.
+8. Which books have outstanding fines?
+9. Count loans per member.
+10. Show books loaned multiple times but never returned.
+
+5. Sports Tournament Organizer
+
+1. Show all matches played by Team India.
+2. List players from each team and their positions.
+3. Find average age of players per team.
+4. Which matches were held in Mumbai?
+5. Get total points scored by each team.
+6. Show teams that haven't played any matches yet.
+7. List matches with scores above 50 points.
+8. Who are the top 5 goal scorers (based on Points)?
+9. Count number of matches played by each team.
+10. Show player count per team.
